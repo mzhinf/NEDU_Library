@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/underline">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_tvUserId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:text="UserId"
+            android:textStyle="normal|bold" />
+
+        <RatingBar
+            android:id="@+id/item_rbGrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:rating="4.0"
+            android:stepSize="1.0"
+            style="@style/Widget.AppCompat.RatingBar.Small" />
+
+        <TextView
+            android:id="@+id/item_tvReviewTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textColor="#000000"
+            android:text="2017-03-23" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_tvBookReviewContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="高尔基的自传三部曲完全不是那种为政治宣传而写的书，从中看到的只有真实的市井社会的写照，不是从政治口号出发，只是对曾经的童年少年时光做满怀深情的回顾。这三本书说是小说但又毫无虚构，说是回忆录却又写得那么富于文学性，记述了各种各样的小事情，记录了形形色色的底层人物，这才是真正的高尔基，而不是那个被极权主义政权利用作为符号的高尔基。" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_showbookinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.nedu.nedu_library.ShowbookinfoActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvBookNum"
+        android:text="共有0条搜索结果"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ece47a"
+        android:background="#a92e2c2c"/>
+
+    <ListView
+        android:id="@+id/lvBookInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvPreviousPage"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="上一页"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvPageNum"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="0/0"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvNextPage"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="下一页"
+            android:layout_gravity="right"
+            android:textAlignment="center" />
+    </LinearLayout>
+</LinearLayout>

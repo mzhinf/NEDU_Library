@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/item_tvBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="10dp"
+            android:textSize="20sp"
+            android:text="1.我的大学"
+            android:gravity="center_vertical|left" />
+        <TextView
+            android:id="@+id/item_tvBookContent"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="书目信息: 作者:高尔基"
+            android:gravity="center_vertical|left"/>
+        <TextView
+            android:id="@+id/item_tvBorrowedContent"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:paddingLeft="10dp"
+            android:textSize="10sp"
+            android:text="借阅信息: 到期天数: 10天 超期:否 续借:是"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/item_btnRenew"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="续借"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+</LinearLayout>

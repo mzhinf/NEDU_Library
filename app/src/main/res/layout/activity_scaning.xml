@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_scaning"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.nedu.nedu_library.ScaningActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btnScaning"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="扫描书目二维码"/>
+
+        <Button
+            android:id="@+id/btnBorrow"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="借阅"/>
+
+        <Button
+            android:id="@+id/btnReturn"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="还书"/>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="清空"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="书名:"
+            android:gravity="center_vertical|center" />
+
+        <TextView
+            android:id="@+id/tvBookTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="我的大学"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="作者:"
+            android:gravity="center_vertical|center" />
+
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="高尔基"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="ISBN:"
+            android:gravity="center_vertical|center" />
+
+        <TextView
+            android:id="@+id/tvBookISBN"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="1234567891234"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="可借副本:"
+            android:gravity="center_vertical|center" />
+
+        <TextView
+            android:id="@+id/tvBookBorrow"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="10"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textSize="15sp"
+            android:text="code:"
+            android:gravity="center_vertical|center" />
+
+        <TextView
+            android:id="@+id/tvBookCode"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:text="10"
+            android:gravity="center_vertical|left"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+
+</LinearLayout>

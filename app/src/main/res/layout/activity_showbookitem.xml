@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_showbookitem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.nedu.nedu_library.ShowbookitemActivity">
+
+    <edu.nedu.nedu_library.indicator.ViewPagerIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#bcbcbc">
+
+        <TextView
+            android:id="@+id/tvBookInfo"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:text="书目信息"
+            android:gravity="center_vertical|center"
+            android:textColor="@color/bookItmeTabChoose"/>
+
+        <TextView
+            android:id="@+id/tvBookReviewInfo"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.5"
+            android:text="书评"
+            android:gravity="center_vertical|center"
+            android:textColor="#969696"/>
+
+    </edu.nedu.nedu_library.indicator.ViewPagerIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpBookItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

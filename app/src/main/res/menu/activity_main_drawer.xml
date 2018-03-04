@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_borrow"
+
+            android:title="借阅信息" />
+        <item
+            android:id="@+id/nav_reservation"
+
+            android:title="预约信息" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="意见反馈" />
+
+        <item
+            android:id="@+id/nav_FAQ"
+            android:title="F A Q"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="设置"/>
+
+    </group>
+
+</menu>
