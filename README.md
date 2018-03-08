@@ -13,10 +13,10 @@ Android客户端：
 
 （5）书评模块 ----- 本模块实现用户对图书的评论和浏览用户评论的功能。
 
-使用Google提供的ZXing开源框架实现对二维码与ISBN的扫描；
+使用Google提供的ZXing实现对二维码与ISBN的扫描；
 
-使用PullToRefresh开源框架使ListView实现下拉上划操作；
+使用PullToRefresh ListView实现下拉上划操作；
 
-使用android-async-http开源框架实现获取网络数据或者向服务器发送数据；
+使用android-async-http实现获取网络数据或者向服务器发送数据；
 
 使用JSON框架实现获取网络数据或者向服务器发送数据。
